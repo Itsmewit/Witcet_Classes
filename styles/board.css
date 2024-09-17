@@ -1,0 +1,33 @@
+        
+        .notice-board {
+            background-color: #fdfdfe;
+            width: 60%;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #dfe3e6;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .notice-board h2 {
+            color: #4682b4;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .notice-board ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .notice-board ul li {
+            background-color: #e6f7ff;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 6px solid #4682b4;
+            border-radius: 4px;
+            font-size: 18px;
+            color: #333;
+        }
+        .notice-board ul li:hover {
+            background-color: #d1ecf9;
+        }
