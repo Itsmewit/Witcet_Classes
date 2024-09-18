@@ -258,7 +258,7 @@ fetchAndInsert('Other/courses.html', 'courses_details');
 
       
         <div class="social-card-section">
-          <div class="social-card">
+          <div id="social-card">
             <div class="social-icon">
 
     </div>
@@ -278,7 +278,7 @@ fetchAndInsert('Other/courses.html', 'courses_details');
         fetch('Other/social_media.html')
             .then(response => response.text())
             .then(data => {
-                document.getElementById('social-card-section').innerHTML = data;
+                document.getElementById('social-card').innerHTML = data;
             })
             .catch(error => console.error('Error fetching the points:', error));
        </script>
