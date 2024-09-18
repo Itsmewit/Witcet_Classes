@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../styles/universal.css" />
-    <link rel="stylesheet" href="../styles/colors.css" />
-    <link rel="stylesheet" href="../styles/navbar.css" />
-    <link rel="stylesheet" href="../styles/footer.css" /> 
-     <link rel="stylesheet" href="../styles/board.css" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../styles/universal.css" />
+    <link rel="stylesheet" href="../../styles/colors.css" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/footer.css" /> 
+     <link rel="stylesheet" href="../../styles/board.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -70,7 +70,7 @@
               <a class="text-white text-center" href="p/about us/about.html">About Us</a>
             </li>
             <li>
-              <a href="p/login/login.html">
+              <a href="../p/login/login.html">
               <button class="btn-design text-bold">Login</button></a>
             </li>
             <label for="check" class="close-menu">
@@ -147,7 +147,7 @@
 
 
            // Fetching the external file and inserting content into the notice list
-        fetch('Other/social_media.html')
+        fetch('../../Other/social_media.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('social-card-section').innerHTML = data;
