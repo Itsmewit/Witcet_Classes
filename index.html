@@ -770,6 +770,25 @@
 
 
 
+<div class="super-container font-poppin">
+        <div id="components-outer-container">
+
+
+        </div>
+</div>
+
+
+          <script>
+           
+           
+           // Fetching the external file and inserting content into the notice list
+        fetch('other/Footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('components-outer-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching the points:', error));
+          </script>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
@@ -783,5 +802,11 @@
     </script>
     
     <script src="script.js"></script>
+
+
+
+
+
+          
   </body>
 </html>
