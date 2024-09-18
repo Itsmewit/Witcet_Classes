@@ -8,7 +8,7 @@
 }
 
 nav {
-  background-color: transparent;
+  background-color: #ffff;
   backdrop-filter: blur(10px);
   z-index: 999;
   box-shadow: var(--navbar-shadow) 0px 5px 15px 0px;
