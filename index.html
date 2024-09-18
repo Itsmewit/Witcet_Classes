@@ -143,21 +143,35 @@
        </script>
       
 
+
+
+
+
    <div id="courses" class="third-section font-sans">
+
+   
+        <div>
+          <h1 class="third-section-title text-center title">
+            What would you like to <span><b>Learn?</b></span>
+          </h1>
+        </div>
+
 
 </div>
 
 <script>
-           
-           
-           // Fetching the external file and inserting content into the notice list
-        fetch('Other/courses.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('courses').innerHTML = data;
-            })
-            .catch(error => console.error('Error fetching the points:', error));
-       </script>
+async function fetchAndInsert(url, elementId) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('Fetch error');
+        document.getElementById(elementId).innerHTML = await response.text();
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
+fetchAndInsert('Other/courses.html', 'courses');
+</script>
 
       
       
