@@ -64,13 +64,19 @@
             color: #007bff; /* Change text color to blue on hover */
         }
 
-        /* Owner name styling */
+
+
+/* Owner name styling */
         .owner {
             margin-top: 10px;
             font-weight: bold;
-            color:#ff152a; /* Blue color for owner names */
+            
+            color:black; /*Black color for owner names */
             text-align: right; /* Align to the right */
         }
+
+
+
 
         /* Subsection styling */
         .subsection {
