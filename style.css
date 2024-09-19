@@ -225,7 +225,7 @@
 }
 
 .image-div img {
-  width: 20rem;
+  width: 16rem;
 }
 
 .name-div {
@@ -388,7 +388,8 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 50px;
+  width: 90px;
+height:auto;
 }
 
 .adv-desc {
